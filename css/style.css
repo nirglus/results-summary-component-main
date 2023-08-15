@@ -34,11 +34,14 @@ body{
     border-radius: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
-.leftSide h1{
+.scoreCircle span{
+    margin-top:0;
+}
+.scoreCircle h1{
     font-size: 53px;
+    margin-bottom: 0;
 }
 span{
     color: hsl(240, 9%, 71%)
