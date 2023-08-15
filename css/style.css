@@ -17,7 +17,7 @@ body{
     height: 395px;
     border-radius: 25px;
     gap:10px;
-    box-shadow: 5px 10px 20px hsl(221, 100%, 96%);
+    box-shadow: 3px 10px 20px hsl(221, 100%, 96%);
 }
 .leftSide{
     display: flex;
@@ -62,5 +62,8 @@ span{
 }
 .rightSide{
     width:237px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
     
 }
