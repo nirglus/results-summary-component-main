@@ -1,6 +1,6 @@
 @font-face {
     font-family: HankenGrotesk;
-    src: url(/assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+    src: url(../assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
 }
 body{
     display: flex;
@@ -13,6 +13,8 @@ body{
 }
 #card{
     display: flex;
+    height: 395px;
+    border-radius: 25px;
 }
 .leftSide{
     display: flex;
@@ -23,6 +25,7 @@ body{
     padding:30px;
     background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
     color: #fff;
+    border-radius: 25px;
 }
 .leftSide h3{
     color: hsl(241, 100%, 89%);
@@ -45,6 +48,13 @@ body{
 }
 span{
     color: hsl(240, 9%, 71%)
+}
+.leftSide p{
+    margin-top:0;
+    text-align: center;
+    width: 185px;
+    color: hsl(241, 100%, 89%);
+    font-size: 12px;
 }
 .rightSide{
     width:237px;
