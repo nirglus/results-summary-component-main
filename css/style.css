@@ -1,3 +1,7 @@
+@font-face {
+    font-family: HankenGrotesk;
+    src: url(/assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
 body{
     display: flex;
     flex-direction: column;
@@ -5,6 +9,7 @@ body{
     justify-content: center;
     width:100vw;
     height:100vh;
+    font-family: HankenGrotesk;
 }
 #card{
     display: flex;
