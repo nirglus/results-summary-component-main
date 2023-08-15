@@ -24,6 +24,9 @@ body{
     background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
     color: #fff;
 }
+.leftSide h3{
+    color: hsl(241, 100%, 89%);
+}
 .scoreCircle{
     background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
     width:150px;
@@ -33,6 +36,12 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.leftSide h1{
+    font-size: 53px;
+}
+span{
+    color: hsl(240, 9%, 71%)
 }
 .rightSide{
     width:237px;
