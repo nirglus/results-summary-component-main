@@ -71,18 +71,28 @@ span{
     align-self: start;
     margin-left: 20px;
 }
+.sumContainers{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;    
+    width: 196px;
+}
 .sumContainer{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width:75%;
+    justify-content: space-around;
+    align-items: center;  
+    border-radius: 6px;
+    height: 38px;
+    width:100%;
 }
+
 .title{
     display: flex;
     justify-content: start;
     align-items: start;
     gap: 5px;
 }
+
 .reaction{
     background-color: rgba(255, 87, 87, 0.1);
     color: hsl(0, 100%, 67%);
