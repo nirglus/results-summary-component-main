@@ -11,6 +11,7 @@ body{
     height:100vh;
     font-family: HankenGrotesk;
     gap:2vh;
+    overflow-x: hidden;
 }
 #card{
     display: flex;
@@ -56,7 +57,7 @@ span{
 .leftSide p{
     margin-top:0;
     text-align: center;
-    width: 185px;
+    width: 175px;
     color: hsl(241, 100%, 89%);
     font-size: 12px;
 }
@@ -121,4 +122,5 @@ button{
     color: #fff;
     background-color: hsl(224, 30%, 27%);
     font-size: 11px;
+    margin-top: -9px;
 }
