@@ -94,18 +94,18 @@ span{
 }
 
 .reaction{
-    background-color: rgba(255, 87, 87, 0.1);
+    background-color: rgba(255, 87, 87, 0.06);
     color: hsl(0, 100%, 67%);
 }
 .memory{
-    background-color: rgba(255, 176, 31, 0.1);
+    background-color: rgba(255, 176, 31, 0.06);
     color: rgb(255, 176, 31);
 }
 .verbal{
-    background-color: rgba(0, 189, 145, 0.1);
+    background-color: rgba(0, 189, 145, 0.06);
     color: rgb(0, 189, 145);
 }
 .visual{
-    background-color: rgb(17, 37, 212, 0.1);
+    background-color: rgb(17, 37, 212, 0.06);
     color: rgb(17, 37, 212);
 }
