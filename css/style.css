@@ -114,7 +114,7 @@ span{
     background-color: rgb(17, 37, 212, 0.06);
     color: rgb(17, 37, 212);
 }
-button{
+.contBtn{
     width: 195px;
     height: 38px;
     border: 0;
@@ -123,4 +123,8 @@ button{
     background-color: hsl(224, 30%, 27%);
     font-size: 11px;
     margin-top: -9px;
+}
+.contBtn:hover{
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    cursor: pointer;
 }
