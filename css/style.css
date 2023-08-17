@@ -84,7 +84,10 @@ span{
     gap: 5px;
 }
 .reaction{
-    background-color: rgba(255, 87, 87,0.1);
+    background-color: rgba(255, 87, 87, 0.1);
     color: hsl(0, 100%, 67%);
 }
-.memory{}
+.memory{
+    background-color: rgba(255, 176, 31, 0.1);
+    color: rgb(255, 176, 31);
+}
