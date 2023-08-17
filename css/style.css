@@ -84,18 +84,20 @@ span{
     border-radius: 6px;
     height: 38px;
     width:100%;
+    font-size: 12px;
+    font-weight: bolder;
 }
 
 .title{
     display: flex;
     justify-content: start;
-    align-items: start;
+    align-items: center;
     gap: 5px;
 }
 
 .reaction{
     background-color: rgba(255, 87, 87, 0.06);
-    color: hsl(0, 100%, 67%);
+    color: rgb(255, 87, 87);
 }
 .memory{
     background-color: rgba(255, 176, 31, 0.06);
@@ -108,4 +110,13 @@ span{
 .visual{
     background-color: rgb(17, 37, 212, 0.06);
     color: rgb(17, 37, 212);
+}
+button{
+    width: 195px;
+    height: 38px;
+    border: 0;
+    border-radius: 25px;
+    color: #fff;
+    background-color: hsl(224, 30%, 27%);
+    font-size: 11px;
 }
