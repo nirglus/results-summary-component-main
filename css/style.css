@@ -134,9 +134,20 @@ span{
 @media (max-width: 600px) {
     #card{
         flex-direction: column;
+        transform: scale(0.6);
+        justify-content: center;
     }
     body{
-        gap:50vh;
+        gap:12vh;
+        justify-content: flex-start;
+    }
+    .scoreCircle{
+        width: 110px;
+        height: 110px;
+    }
+    .rightSide{
+        width: 255px;
+        gap: 21px;
     }
     
 }
