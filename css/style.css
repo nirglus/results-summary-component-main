@@ -129,7 +129,7 @@ span{
     background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
     cursor: pointer;
 }
-.attribution { font-size: 11px; text-align: center;}
+.attribution { font-size: 11px; text-align: center; order: 22;}
 .attribution a { color: hsl(228, 45%, 44%); }
 @media (max-width: 600px) {
     #card{
