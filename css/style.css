@@ -165,5 +165,8 @@ span{
         width: 255px;
         gap: 21px;
     }
+    .attribution{
+        display: none;
+    }
     
 }
