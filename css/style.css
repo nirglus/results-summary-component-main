@@ -10,7 +10,7 @@ body{
     width:100vw;
     height:100vh;
     font-family: HankenGrotesk;
-    gap:2vh;
+    gap:5vh;
     overflow-x: hidden;
 }
 #card{
@@ -19,6 +19,7 @@ body{
     border-radius: 25px;
     gap:10px;
     box-shadow: 3px 10px 20px hsl(221, 100%, 96%);
+    order: 1;
 }
 .leftSide{
     display: flex;
@@ -128,6 +129,14 @@ span{
     background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
     cursor: pointer;
 }
+.attribution { font-size: 11px; text-align: center; order: 22; }
+.attribution a { color: hsl(228, 45%, 44%); }
 @media (max-width: 600px) {
+    #card{
+        flex-direction: column;
+    }
+    body{
+        gap:50vh;
+    }
     
 }
